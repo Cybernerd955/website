@@ -1,0 +1,88 @@
+.titlebar {
+    display: flex;
+    width: 100%;
+    height:  80px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+    background-color: #ADC5CF;  
+}
+.titlebar ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    text-rendering: none;
+    list-style-type:none;
+    margin-right: 320px;
+    
+}
+.titlebar ul li {
+    font-family: sans-serif;
+    margin: 20px;
+    
+}
+
+.titlebar ul li:hover{
+    color:blue;
+}
+a,u{
+    text-decoration: none;
+    
+}
+
+/* bodypart */
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #ADC5CF;}
+
+.mail{
+        display: flex;
+        height: 100vh;}
+
+.pagemain{
+            display: flex;
+            height: 100vh;
+            
+        }
+.profile{
+            display: flex;
+            height: 88%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            background-color: #ADC5CF;
+            padding: 4px;
+        }
+
+
+.maintext{
+   width:80%;
+   background: url(beautiful-shining-stars-night-sky\ \(1\).jpg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+        }
+        .aboutme{
+            background: url(beautiful-shining-stars-night-sky\ \(1\).jpg);
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            
+        }
+.object{
+    height: 770px;
+    width: 1070px;
+    color: blue;
+}
+.text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
